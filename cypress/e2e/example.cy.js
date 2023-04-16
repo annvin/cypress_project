@@ -1,4 +1,4 @@
-describe('My First Test', function () {
+describe('My First Test google verify', function () {
     it('Navigates to google.com and verify title', function () { 
        cy.visit('https://www.google.com'); 
        cy.title().should('eq', 'Google'); 
